@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "moredelight-polymer-patch",
+	"version": "${version}",
+	"name": "Polymer Patch for More Delight",
+	"description": "Server-side-only More Delight: its knives and dishes keep their own models, textures and names for unmodded clients.",
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"eu.pb4.moredelightpatch.MoreDelightPolymerPatch"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*",
+		"polymer-core": ">=0.16.0",
+		"polymer-resource-pack": ">=0.16.0",
+		"moredelight": "*",
+		"delightlib": "*"
+	}
+}
